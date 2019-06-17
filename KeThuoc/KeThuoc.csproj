@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0F42334-C560-48E5-80F7-DEFB87092F15}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KeThuoc</RootNamespace>
+    <AssemblyName>KeThuoc</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Excel.1.0.0\lib\dotnet\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.4.2.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.4.2\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.4.2.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.4.2\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToExcel, Version=1.11.0.0, Culture=neutral, PublicKeyToken=9c8ea65a58f03f1f, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToExcel.1.11.0\lib\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Remotion, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToExcel.1.11.0\lib\Remotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToExcel.1.11.0\lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Interfaces, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToExcel.1.11.0\lib\Remotion.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Thuoc_BLL\Admin_BLL.cs" />
+    <Compile Include="Thuoc_BLL\BenhNhan_BLL.cs" />
+    <Compile Include="Thuoc_BLL\DangNhap_BLL.cs" />
+    <Compile Include="Thuoc_BLL\DonThuoc_BLL.cs" />
+    <Compile Include="Thuoc_BLL\QuanLyBacSi_BLL.cs" />
+    <Compile Include="Thuoc_BLL\ThongTinCaNhan_BLL.cs" />
+    <Compile Include="Thuoc_BLL\Thuoc_BLL.cs" />
+    <Compile Include="Thuoc_DAL\BacSi.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\BenhNhan.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\ChucVu.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\Thuoc_DAL.cs" />
+    <Compile Include="Thuoc_DAL\DonThuoc.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\DonVaThuoc.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\KeThuocEntity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeThuocEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\KeThuocEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\KeThuocEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeThuocEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\Khoa.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\LoaiThuoc.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_DAL\THUOC.cs">
+      <DependentUpon>KeThuocEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\AdminPage.Designer.cs">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\BacSiPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\BacSiPage.Designer.cs">
+      <DependentUpon>BacSiPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ChonSoluongThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ChonSoluongThuoc.Designer.cs">
+      <DependentUpon>ChonSoluongThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBacSi_Them.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBacSi_Them.Designer.cs">
+      <DependentUpon>formQuanLyBacSi_Them.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBenhNhan.Designer.cs">
+      <DependentUpon>formQuanLyBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBacSi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBacSi.Designer.cs">
+      <DependentUpon>formQuanLyBacSi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBenhNhan_Them.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyBenhNhan_Them.Designer.cs">
+      <DependentUpon>formQuanLyBenhNhan_Them.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyThuoc_Them.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyThuoc_Them.Designer.cs">
+      <DependentUpon>formQuanLyThuoc_Them.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formBacSi_TaoDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formBacSi_TaoDon.Designer.cs">
+      <DependentUpon>formBacSi_TaoDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongKeDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongKeDonThuoc.Designer.cs">
+      <DependentUpon>ThongKeDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\formQuanLyThuoc.Designer.cs">
+      <DependentUpon>formQuanLyThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thuoc_GUI\ThongTinDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTinDonThuoc.Designer.cs">
+      <DependentUpon>ThongTinDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_BenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_BenhNhan.Designer.cs">
+      <DependentUpon>ThongTin_BenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_CaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_CaNhan.Designer.cs">
+      <DependentUpon>ThongTin_CaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_Thuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc_GUI\ThongTin_Thuoc.Designer.cs">
+      <DependentUpon>ThongTin_Thuoc.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Thuoc_GUI\AdminPage.resx">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\BacSiPage.resx">
+      <DependentUpon>BacSiPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\ChonSoluongThuoc.resx">
+      <DependentUpon>ChonSoluongThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formBacSi_TaoDon.resx">
+      <DependentUpon>formBacSi_TaoDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyBacSi_Them.resx">
+      <DependentUpon>formQuanLyBacSi_Them.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyBenhNhan.resx">
+      <DependentUpon>formQuanLyBenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyBacSi.resx">
+      <DependentUpon>formQuanLyBacSi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyBenhNhan_Them.resx">
+      <DependentUpon>formQuanLyBenhNhan_Them.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyThuoc_Them.resx">
+      <DependentUpon>formQuanLyThuoc_Them.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\ThongKeDonThuoc.resx">
+      <DependentUpon>ThongKeDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\formQuanLyThuoc.resx">
+      <DependentUpon>formQuanLyThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Thuoc_GUI\ThongTinDonThuoc.resx">
+      <DependentUpon>ThongTinDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\ThongTin_BenhNhan.resx">
+      <DependentUpon>ThongTin_BenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\ThongTin_CaNhan.resx">
+      <DependentUpon>ThongTin_CaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc_GUI\ThongTin_Thuoc.resx">
+      <DependentUpon>ThongTin_Thuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EntityDeploy Include="Thuoc_DAL\KeThuocEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>KeThuocEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Thuoc_DAL\KeThuocEntity.edmx.diagram">
+      <DependentUpon>KeThuocEntity.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Thuoc_DAL\KeThuocEntity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KeThuocEntity.edmx</DependentUpon>
+      <LastGenOutput>KeThuocEntity.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Thuoc_DAL\KeThuocEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KeThuocEntity.edmx</DependentUpon>
+      <LastGenOutput>KeThuocEntity.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,79 @@
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\bin\Debug\KeThuoc.exe.config
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\bin\Debug\KeThuoc.exe
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\bin\Debug\KeThuoc.pdb
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csprojAssemblyReference.cache
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.formThuoc.resources
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.Properties.Resources.resources
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.GenerateResource.cache
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.CoreCompileInputs.cache
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.exe
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.pdb
+D:\DotNet\ThayNguyen\KeThuoc\KeThuoc\obj\Debug\KeThuoc.Form1.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\bin\Debug\KeThuoc.exe.config
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\bin\Debug\KeThuoc.exe
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\bin\Debug\KeThuoc.pdb
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csprojAssemblyReference.cache
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.Main.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.formBacSi_DonDaXuat.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.formBacSi_TaoDon_ThongTin.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.formThuoc.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.Properties.Resources.resources
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.GenerateResource.cache
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.exe
+C:\Users\Hoang Tu Le\Desktop\DonThuoc\DonThuoc-72f9ddb7e74644b7d29c0836b9501832578acf69\KeThuoc\KeThuoc\obj\Debug\KeThuoc.pdb
+E:\GitHub\DonThuoc\KeThuoc\bin\Debug\KeThuoc.exe.config
+E:\GitHub\DonThuoc\KeThuoc\bin\Debug\KeThuoc.exe
+E:\GitHub\DonThuoc\KeThuoc\bin\Debug\KeThuoc.pdb
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csprojAssemblyReference.cache
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Main.resources
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formBacSi_DonDaXuat.resources
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formBacSi_TaoDon_ThongTin.resources
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formThuoc.resources
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Properties.Resources.resources
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.GenerateResource.cache
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.CoreCompileInputs.cache
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.exe
+E:\GitHub\DonThuoc\KeThuoc\obj\Debug\KeThuoc.pdb
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\KeThuoc.exe.config
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\KeThuoc.exe
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\KeThuoc.pdb
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csprojAssemblyReference.cache
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.AdminPage.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyBacSi.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Main.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.ThongKeDonThuoc.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Properties.Resources.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.ThongTinDonThuoc.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.GenerateResource.cache
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.CoreCompileInputs.cache
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.exe
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.pdb
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.BacSiPage.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyBenhNhan.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyThuoc.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formBacSi_TaoDon.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyBacSi_Them.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyBenhNhan_Them.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.formQuanLyThuoc_Them.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.ThongTin_CaNhan.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\EntityFramework.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\EntityFramework.xml
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.csproj.CopyComplete
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Thuoc_GUI.ThongTin_Thuoc.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Thuoc_GUI.ThongTin_BenhNhan.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\obj\Debug\KeThuoc.Thuoc_GUI.ChonSoluongThuoc.resources
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\Excel.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\ExcelDataReader.DataSet.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\ExcelDataReader.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\LinqToExcel.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\Remotion.Data.Linq.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\Remotion.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\Remotion.Interfaces.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\ExcelDataReader.xml
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\ExcelDataReader.DataSet.xml
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\LinqToExcel.xml
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\itextsharp.dll
+D:\GitHub\KeThuoc\DonThuoc\KeThuoc\bin\Debug\itextsharp.xml
